@@ -1,0 +1,19 @@
+<div style="text-align:center">
+
+  <h1>{{title}}</h1>
+  <p>Parent to child data sharing parent is app component and child-comp is is child component</p>
+  <alert type="info">
+    <strong>Inside parent Component ! </strong>
+    <input [(ngModel)]="str" type="text">
+    <p>str = {{str}}</p>
+  </alert>
+
+
+  <app-child-comp [parentData]="str"></app-child-comp>
+
+  <!--
+  <button type="button" class="btn btn-primary">
+    Single Button
+  </button>
+  -->
+</div>

@@ -1,0 +1,6 @@
+mongodb+srv://Pratik54:<Pratik%4054>@cluster0.vgqr3.mongodb.net/test
+
+encoded password of Pratik@54 =  
+Pratik%4054
+
+defualt connecyion string:mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass&directConnection=true&ssl=false

@@ -1,0 +1,79 @@
+<div style="text-align:center">
+
+  <!--These is only for demonstation
+   i have used the bellow site for lern
+  https://valor-software.com/ngx-bootstrap/#/tooltip
+  please use the different componets dont do that in bellow way -->
+  <h1>BootStrap Demonstration</h1>
+
+  <h2>Demonstartion of single button</h2>
+
+  <button type="button" class="btn btn-primary">
+    Single Button
+  </button>
+
+  <h2>Alert module</h2>
+  <alert type="success">
+    <strong>Well done!</strong> You successfully read this important alert message.
+  </alert>
+
+  <alert type="info">
+    <strong>Heads up!</strong> This alert needs your attention, but it's not super important.
+  </alert>
+
+  <alert type="warning">
+    <strong>Warning!</strong> Better check yourself, you're not looking too good.
+  </alert>
+
+  <alert type="danger">
+    <strong>Oh snap!</strong> Change a few things up and try submitting again.
+  </alert>
+
+  <alert type="success">
+    <strong>Well done!</strong> You successfully read this important alert message.
+  </alert>
+
+  <h2>Carousel</h2>
+  <!--A slideshow component for cycling through elements—images or slides of text—like a carousel. Nested carousels are not supported.
+  The easiest way to add the carousel component to your app (will be added to the root module)-->
+
+  <carousel>
+    <slide>
+      <img src="assets/1.jpg" alt="first slide" style="display: block; width: 100%;">
+    </slide>
+    <slide>
+      <img src="assets/2.jpg" alt="second slide" style="display: block; width: 100%;">
+    </slide>
+    <slide>
+      <img src="assets/3.jpg" alt="third slide" style="display: block; width: 100%;">
+    </slide>
+  </carousel>
+
+  <h2>Popover</h2>
+  <!--Add small overlay content, like those found in iOS, to any element for housing secondary information.
+  -->
+  <button type="button" class="btn btn-primary" popover="PopOver Demonstation">
+    Live demo
+  </button>
+
+  <h2>Static Progressbar</h2>
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="mb-2">
+        <progressbar [value]="55"></progressbar>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="mb-2">
+        <progressbar [value]="22" type="warning" [striped]="true">22%</progressbar>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="mb-2">
+        <progressbar [max]="200" [value]="166" type="danger" [striped]="true" [animate]="true"><i>166 / 200</i>
+        </progressbar>
+      </div>
+    </div>
+  </div>
+
+</div>

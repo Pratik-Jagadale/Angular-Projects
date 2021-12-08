@@ -1,0 +1,14 @@
+<p>Values of the array</p>
+
+<div *ngFor="let value of array">
+    <h2>
+        {{value}}
+    </h2>
+</div>
+
+<p>by using index</p>
+<div *ngFor="let value of array ; index as i">
+    <h2>
+        {{i }} {{value}}
+    </h2>
+</div>

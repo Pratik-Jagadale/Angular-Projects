@@ -1,0 +1,20 @@
+<div style="text-align:center">
+
+    <div style="text-align:center">
+        <label> check number is prime or not :</label><br>
+        <input [(ngModel)]="num" type="number"><br>
+        <button (click)="chkPrime()">Check</button><br>
+        <h2 style="color: cadetblue;">
+            {{strprime}}
+        </h2>
+    </div>
+
+    <div style="text-align:center">
+        <label>counter number of capital charcters in String :</label><br>
+        <input [(ngModel)]="str" type="text"><br>
+        <button (click)="CountCapital()">Check</button><br>
+        <h2 style="color: cadetblue;">
+            Count of capital charcters in the given string is : {{ capsCnt}}
+        </h2>
+    </div>
+</div>

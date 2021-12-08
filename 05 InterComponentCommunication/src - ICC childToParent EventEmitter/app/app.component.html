@@ -1,0 +1,13 @@
+<div style="text-align:center">
+
+  <h1>{{title}}</h1>
+  <p> child to parent data sharing parent is app component and child-comp is a child component</p>
+
+  <alert type="info">
+    <strong>Inside parent Component ! </strong>
+    <h2>Message from child is : {{msg}}</h2>
+  </alert>
+
+  <app-child-comp (myEvent)="msg = $event"></app-child-comp>
+
+</div>

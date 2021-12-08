@@ -1,0 +1,9 @@
+
+.success{
+    color:green;
+}
+
+.failure{
+    color:crimson;
+    text-shadow: darkcyan;
+}

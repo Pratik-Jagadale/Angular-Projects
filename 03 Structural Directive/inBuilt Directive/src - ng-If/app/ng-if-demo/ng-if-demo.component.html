@@ -1,0 +1,30 @@
+<!--use of ngif by using hardcore value-->
+<h1 *ngIf="true">Pune</h1>
+
+<!--we can use any peroperty of ts file in ngif-->
+<h1 *ngIf="flag">Maharashtra</h1>
+
+<!--use of ngif like if else-->
+<h1 *ngIf="flag ; else otherpart"></h1>
+
+<ng-template #otherpart>
+    <h1>
+        World...
+    </h1>
+</ng-template>
+
+<!---->
+
+<h1 *ngIf="true ; then ifblock ; else elseblock"></h1>
+
+<ng-template #ifblock>
+    <h1>
+        if block
+    </h1>
+</ng-template>
+
+<ng-template #elseblock>
+    <h1>
+        else block
+    </h1>
+</ng-template>
